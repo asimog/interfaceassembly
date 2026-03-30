@@ -1,0 +1,32 @@
+# Personal config — never commit these
+.env
+.env.*
+*.local
+cli-config.yaml
+
+# Claude local settings
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+agents/vendor/hermes-agent/.venv/
+agents/vendor/**/.git/
+
+# Node (if a user adds JS/TS later)
+node_modules/
+.next/
+build/
+dist/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+*.pem
+
+# Temp
+.tmp/
+.tmp-*/
